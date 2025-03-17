@@ -120,7 +120,8 @@ int main() {
     stack.push(4);
     stack.push(5);
     stack.push(6);
-    stack.push(7);  // overflow
+    stack.push(7);  
+    stack.push(8);  // overflow
 
     cout << "*****************************************************\n";
 
