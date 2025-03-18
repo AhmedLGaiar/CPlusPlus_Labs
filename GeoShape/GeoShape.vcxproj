@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{CB942755-E79A-49C1-A4CA-16A4C7D96260}</ProjectGuid>
-    <RootNamespace>Day3</RootNamespace>
+    <ProjectGuid>{9281dc1a-395d-47d6-ab1a-5031b4ece2db}</ProjectGuid>
+    <RootNamespace>GeoShape</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Day 3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Day 3.cpp" />
+    <ClCompile Include="GeoShape.cpp" />
+    <ClCompile Include="Shape.h" />
+    <ClCompile Include="Rectangle.h" />
+    <ClCompile Include="Circle.h" />
+    <ClCompile Include="Triangle.h" />
+    <ClCompile Include="Square.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
