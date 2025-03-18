@@ -162,15 +162,6 @@ public:
         }
     }
 
-    const int& operator[](int index) const {
-        if (index >= 0 && index < size) {
-            return arr[index];
-        }
-        else {
-            cout << "Index out of range";
-            exit(1);
-        }
-    }
 };
 
 
