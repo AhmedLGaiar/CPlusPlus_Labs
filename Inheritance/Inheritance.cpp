@@ -11,14 +11,16 @@ using namespace std;
 int main()
 {
 	initwindow(500, 500);
-	
-	Rect rect1(Point(50, 50), Point(150, 150), RED);
-	Rect rect2(Point(200, 200), Point(400, 300), BLUE);
-	rect1.Draw();
-	rect2.Draw();
-	Circle circle1(Point(100, 100), 50, GREEN);
-	circle1.Draw();
 
+    Rect rect2(Point(200, 200), Point(400, 300), BLUE);
+    rect2.Draw();
+
+    Line line(Point(200, 200), Point(450, 250), YELLOW);
+    line.Draw();
+
+    Circle circle1(Point(100, 100), 50, GREEN);
+
+    circle1.Draw();
 	getch();
 	closegraph();
 	return 0;

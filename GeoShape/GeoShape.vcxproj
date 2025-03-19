@@ -128,11 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GeoShape.cpp" />
-    <ClCompile Include="Shape.h" />
-    <ClCompile Include="Rectangle.h" />
-    <ClCompile Include="Circle.h" />
-    <ClCompile Include="Triangle.h" />
-    <ClCompile Include="Square.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

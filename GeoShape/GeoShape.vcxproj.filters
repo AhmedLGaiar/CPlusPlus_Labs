@@ -18,20 +18,5 @@
     <ClCompile Include="GeoShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Shape.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Triangle.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Square.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Rectangle.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Circle.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

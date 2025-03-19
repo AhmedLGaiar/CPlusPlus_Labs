@@ -1,3 +1,6 @@
+#ifndef TRIANGLE_H
+#define TRIANGLE_H
+
 #include "Shape.h"
 
 class Triangle : public Shape
@@ -9,3 +12,6 @@ public:
 		return 0.5 * dim1 * dim2;
 	}
 };
+
+#endif
+

@@ -15,4 +15,5 @@ public:
 	float getDim1() { return dim1; }
 	float getDim2() { return dim2; }
 	virtual float area() = 0;
+	virtual ~Shape() {}; 
 };

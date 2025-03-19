@@ -1,3 +1,6 @@
+#ifndef SQUARE_H
+#define SQUARE_H
+
 #include "Rectangle.h"
 
 class Square : protected Rectangle
@@ -18,3 +21,5 @@ public:
 		return side * side;
 	}
 };
+
+#endif

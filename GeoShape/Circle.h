@@ -1,4 +1,8 @@
+#ifndef CIRCLE_H
+#define CIRCLE_H
+
 #include "Shape.h"
+
 class Circle : public Shape
 {
 public:
@@ -7,3 +11,5 @@ public:
 		return 3.14 * dim1 * dim1;
 	}
 };
+
+#endif
